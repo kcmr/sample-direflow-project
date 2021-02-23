@@ -9,12 +9,12 @@
  * It can be left blank if not needed.
  */
 
-import SampleDireflowProject from './direflow-components/sample-direflow-project';
+import SampleDireflowProject from './direflow-components/styled-component';
 
 SampleDireflowProject.then((element) => {
 
   /**
    * Access DOM node when it's mounted
    */
-  console.log('sample-direflow-project is mounted on the DOM', element);
+  console.log('<styled-component> is mounted on the DOM', element);
 });
