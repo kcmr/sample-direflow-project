@@ -1,6 +1,13 @@
 {
   "build": {
     "componentPath": "direflow-components",
-    "filename": "direflowBundle.js"
+    "filename": "direflowBundle.js",
+    "emitIndexHTML": true,
+    "emitAll": true
+  },
+  "polyfills": {
+    "sd": false,
+    "ce": false,
+    "adapter": false
   }
 }

@@ -19,7 +19,7 @@ const App = (props) => {
 
 App.defaultProps = {
   title: 'Hi',
-  bgColor: '#fff',
+  bgColor: '#e8e8e8',
 };
 
 App.propTypes = {
